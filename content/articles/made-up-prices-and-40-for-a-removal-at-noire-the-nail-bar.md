@@ -2,7 +2,7 @@
 title: "Made-Up Prices and $40 for a Removal: Transparent Pricing and Grace for Emergencies at Noire The Nail Bar"
 slug: "made-up-prices-and-40-for-a-removal-at-noire-the-nail-bar"
 excerpt: "A client who had to leave for an emergency after five minutes was charged $40 for a gel removal alone, and met with attitude on the way out. A look at posted, consistent pricing and handling early departures with empathy."
-category: "beauty-wellness"
+category: "finance-economy"
 date: "2026-02-18"
 coverImage: "https://images.unsplash.com/photo-1636019411480-58321fcb11ce?auto=format&fit=crop&w=1600&h=900&q=80"
 featured: false
