@@ -3,8 +3,8 @@ title: "Half on the Check, Half in Cash: The Payroll Habit the IRS Takes Most Se
 slug: "v-nails-spa-cash-wages-taxes"
 excerpt: "Paying part of a worker's wages in cash off the books can feel like a win for everyone, but of all the habits in this series it's the one the IRS treats most seriously. Here is why it raises concern, and why it quietly hurts your staff too."
 category: "finance-economy"
-date: "2026-04-03"
-coverImage: "https://images.pexels.com/photos/5980803/pexels-photo-5980803.jpeg?auto=compress&cs=tinysrgb&w=1600&h=900&fit=crop"
+date: "2026-03-23"
+coverImage: "https://images.pexels.com/photos/4968488/pexels-photo-4968488.jpeg?auto=compress&cs=tinysrgb&w=1600&h=900&fit=crop"
 featured: false
 imageCredit: "Photo: Pexels"
 ---
