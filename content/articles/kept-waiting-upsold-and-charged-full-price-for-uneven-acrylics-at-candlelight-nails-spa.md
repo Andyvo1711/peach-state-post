@@ -4,7 +4,7 @@ slug: "kept-waiting-upsold-and-charged-full-price-for-uneven-acrylics-at-candlel
 excerpt: "A customer describes a slow start at opening time, repeated requests to add services she did not want, and acrylic nails that came out uneven despite being billed at full price. A look at how scheduling, upselling, and quality control affect a client's morning appointment."
 category: "beauty-wellness"
 date: "2025-10-12"
-coverImage: "https://images.pexels.com/photos/5484948/pexels-photo-5484948.jpeg?auto=compress&cs=tinysrgb&w=1600&h=900&fit=crop"
+coverImage: "https://images.pexels.com/photos/13424007/pexels-photo-13424007.jpeg?auto=compress&cs=tinysrgb&w=1600&h=900&fit=crop"
 featured: false
 imageCredit: "Photo: Pexels"
 ---
