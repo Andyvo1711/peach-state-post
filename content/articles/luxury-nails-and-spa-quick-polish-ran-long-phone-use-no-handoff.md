@@ -4,7 +4,7 @@ slug: "luxury-nails-and-spa-quick-polish-ran-long-phone-use-no-handoff"
 excerpt: "A customer who stopped by Luxury Nails & Spa for a simple polish said the technician was on her phone throughout, stretching a quick service well past half an hour. A look at what the visit can teach nail teams about presence, urgent personal matters, and handing off clients."
 category: "beauty-wellness"
 date: "2025-10-22"
-coverImage: "https://images.pexels.com/photos/11427692/pexels-photo-11427692.jpeg?auto=compress&cs=tinysrgb&w=1600&h=900&fit=crop"
+coverImage: "https://images.pexels.com/photos/19988191/pexels-photo-19988191.jpeg?auto=compress&cs=tinysrgb&w=1600&h=900&fit=crop"
 featured: false
 imageCredit: "Photo: Pexels"
 ---
