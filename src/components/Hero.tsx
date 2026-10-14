@@ -8,9 +8,9 @@ export default function Hero({ article }: { article: ArticleMeta }) {
   return (
     <Link
       href={`/article/${article.slug}`}
-      className="group relative block overflow-hidden rounded-xl border border-border"
+      className="group block overflow-hidden rounded-xl border border-border bg-surface transition-colors hover:bg-surface-hover"
     >
-      <div className="relative aspect-[4/5] w-full sm:aspect-[21/9]">
+      <div className="relative aspect-[4/5] w-full overflow-hidden sm:aspect-[21/9]">
         <CoverImage
           src={article.coverImage}
           alt={article.title}
@@ -19,10 +19,9 @@ export default function Hero({ article }: { article: ArticleMeta }) {
           sizes="(min-width: 1152px) 1152px, 100vw"
           className="transition-transform duration-500 group-hover:scale-105"
         />
-        <div className="absolute inset-0 bg-gradient-to-t from-black/95 via-black/45 to-transparent" />
       </div>
 
-      <div className="absolute inset-x-0 bottom-0 flex flex-col gap-3 p-5 sm:p-8 md:p-10">
+      <div className="flex flex-col gap-3 p-5 sm:p-8 md:p-10">
         <div className="flex items-center gap-3">
           <span
             className={`w-fit rounded-full px-3 py-1 text-xs font-semibold ${getCategoryBadgeClass(
@@ -31,16 +30,16 @@ export default function Hero({ article }: { article: ArticleMeta }) {
           >
             {getCategoryName(article.category)}
           </span>
-          <span className="text-xs font-semibold uppercase tracking-[0.2em] text-zinc-300">
+          <span className="text-xs font-semibold uppercase tracking-[0.2em] text-muted">
             Lead Story
           </span>
         </div>
 
-        <h1 className="font-display max-w-3xl text-2xl font-black leading-tight text-white sm:text-4xl md:text-5xl">
+        <h1 className="font-display max-w-3xl text-2xl font-black leading-tight text-foreground transition-colors group-hover:text-accent sm:text-4xl md:text-5xl">
           {article.title}
         </h1>
 
-        <p className="hidden max-w-2xl text-sm text-zinc-300 sm:block sm:text-base">
+        <p className="max-w-3xl text-sm text-muted sm:text-base">
           {article.excerpt}
         </p>
       </div>
