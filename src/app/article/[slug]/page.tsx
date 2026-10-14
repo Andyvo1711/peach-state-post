@@ -4,7 +4,11 @@ import { notFound } from "next/navigation";
 import type { Metadata } from "next";
 import ArticleCard from "@/components/ArticleCard";
 import { formatDate } from "@/lib/formatDate";
-import { getCategoryBadgeClass, getCategoryName } from "@/lib/categories";
+import {
+  getCategoryBadgeClass,
+  getCategoryName,
+  getCoverPositionClass,
+} from "@/lib/categories";
 import {
   getAllArticleSlugs,
   getArticleBySlug,
@@ -75,7 +79,7 @@ export default async function ArticlePage({
             fill
             priority
             sizes="(min-width: 768px) 768px, 100vw"
-            className="object-cover"
+            className={`object-cover ${getCoverPositionClass(article.category)}`}
           />
         </div>
         <figcaption className="mt-2 text-xs text-muted">

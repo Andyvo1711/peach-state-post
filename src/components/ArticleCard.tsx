@@ -1,7 +1,11 @@
 import Image from "next/image";
 import Link from "next/link";
 import type { ArticleMeta } from "@/types/article";
-import { getCategoryBadgeClass, getCategoryName } from "@/lib/categories";
+import {
+  getCategoryBadgeClass,
+  getCategoryName,
+  getCoverPositionClass,
+} from "@/lib/categories";
 
 /**
  * Grid card used on category pages and related-article lists.
@@ -19,7 +23,7 @@ export default function ArticleCard({ article }: { article: ArticleMeta }) {
           alt={article.title}
           fill
           sizes="(min-width: 1024px) 33vw, (min-width: 640px) 50vw, 100vw"
-          className="object-cover transition-transform duration-300 group-hover:scale-105"
+          className={`object-cover ${getCoverPositionClass(article.category)} transition-transform duration-300 group-hover:scale-105`}
         />
       </div>
 

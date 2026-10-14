@@ -1,7 +1,11 @@
 import Image from "next/image";
 import Link from "next/link";
 import type { ArticleMeta } from "@/types/article";
-import { getCategoryBadgeClass, getCategoryName } from "@/lib/categories";
+import {
+  getCategoryBadgeClass,
+  getCategoryName,
+  getCoverPositionClass,
+} from "@/lib/categories";
 
 /**
  * Homepage section for a single category: one large lead item on the left,
@@ -48,7 +52,7 @@ export default function CategoryBlock({
               alt={lead.title}
               fill
               sizes="(min-width: 1024px) 560px, 100vw"
-              className="object-cover transition-transform duration-300 group-hover:scale-105"
+              className={`object-cover ${getCoverPositionClass(lead.category)} transition-transform duration-300 group-hover:scale-105`}
             />
           </div>
           <div className="flex flex-1 flex-col gap-3 p-5">
@@ -80,7 +84,7 @@ export default function CategoryBlock({
                   alt={article.title}
                   fill
                   sizes="128px"
-                  className="object-cover transition-transform duration-300 group-hover:scale-105"
+                  className={`object-cover ${getCoverPositionClass(article.category)} transition-transform duration-300 group-hover:scale-105`}
                 />
               </div>
               <div className="min-w-0">

@@ -1,7 +1,11 @@
 import Image from "next/image";
 import Link from "next/link";
 import type { ArticleMeta } from "@/types/article";
-import { getCategoryBadgeClass, getCategoryName } from "@/lib/categories";
+import {
+  getCategoryBadgeClass,
+  getCategoryName,
+  getCoverPositionClass,
+} from "@/lib/categories";
 
 /** The single lead story at the top of the homepage. No date shown. */
 export default function Hero({ article }: { article: ArticleMeta }) {
@@ -17,7 +21,7 @@ export default function Hero({ article }: { article: ArticleMeta }) {
           fill
           priority
           sizes="(min-width: 1152px) 1152px, 100vw"
-          className="object-cover transition-transform duration-500 group-hover:scale-105"
+          className={`object-cover ${getCoverPositionClass(article.category)} transition-transform duration-500 group-hover:scale-105`}
         />
         <div className="absolute inset-0 bg-gradient-to-t from-black/95 via-black/45 to-transparent" />
       </div>
