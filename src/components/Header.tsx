@@ -15,7 +15,7 @@ export default function Header() {
             </span>
             <span className="flex items-center gap-2 text-[0.7rem] font-semibold uppercase tracking-[0.18em] text-muted sm:text-xs">
               <span className="hidden h-px w-6 shrink-0 bg-peach sm:block" aria-hidden="true" />
-              Georgia News · From Atlanta to Savannah
+              Georgia News, Covered Right
               <span className="hidden h-px w-6 shrink-0 bg-peach sm:block" aria-hidden="true" />
             </span>
           </Link>
