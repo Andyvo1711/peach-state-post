@@ -8,10 +8,15 @@ export default function Header() {
         <div className="grid items-center gap-4 py-5 sm:py-6 xl:grid-cols-[1fr_auto_1fr]">
           <Link
             href="/"
-            className="justify-self-center text-center xl:col-start-2"
+            className="flex flex-col items-center gap-2 justify-self-center text-center sm:gap-3 xl:col-start-2"
           >
             <span className="font-display text-4xl font-black leading-none tracking-tight text-accent sm:text-5xl lg:text-6xl">
               Peach State Post
+            </span>
+            <span className="flex items-center gap-2 text-[0.7rem] font-semibold uppercase tracking-[0.18em] text-muted sm:text-xs">
+              <span className="hidden h-px w-6 shrink-0 bg-peach sm:block" aria-hidden="true" />
+              Georgia News · From Atlanta to Savannah
+              <span className="hidden h-px w-6 shrink-0 bg-peach sm:block" aria-hidden="true" />
             </span>
           </Link>
 
