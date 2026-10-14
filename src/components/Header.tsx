@@ -5,17 +5,20 @@ export default function Header() {
   return (
     <header className="sticky top-0 z-50 border-b border-border bg-background/90 backdrop-blur">
       <div className="mx-auto max-w-6xl px-4 sm:px-6">
-        <div className="flex flex-col gap-4 py-5 sm:py-6 md:flex-row md:items-center md:justify-between">
-          <Link href="/" className="flex items-baseline gap-2">
-            <span className="font-display text-4xl font-black leading-none tracking-tight text-foreground sm:text-5xl lg:text-6xl">
-              Peach State <span className="text-accent">Post</span>
+        <div className="grid items-center gap-4 py-5 sm:py-6 xl:grid-cols-[1fr_auto_1fr]">
+          <Link
+            href="/"
+            className="justify-self-center text-center xl:col-start-2"
+          >
+            <span className="font-display text-4xl font-black leading-none tracking-tight text-accent sm:text-5xl lg:text-6xl">
+              Peach State Post
             </span>
           </Link>
 
           <form
             action="/search"
             method="GET"
-            className="flex w-full max-w-xs items-center gap-2 md:w-auto"
+            className="flex w-full max-w-xs items-center gap-2 justify-self-center xl:justify-self-end"
           >
             <input
               type="search"

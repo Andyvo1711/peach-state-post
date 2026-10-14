@@ -5,7 +5,7 @@ excerpt: "A Georgia Tech-led research team published a new climate model capable
 category: "education"
 date: "2025-11-12"
 coverImage: "https://images.pexels.com/photos/10519596/pexels-photo-10519596.jpeg"
-featured: false
+featured: true
 imageCredit: "Photo: Pexels"
 ---
 
