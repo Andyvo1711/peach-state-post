@@ -63,11 +63,3 @@ export function getCategoryBadgeClass(slug: string): string {
     "bg-slate-500/10 text-slate-700"
   );
 }
-
-/**
- * Business Leaders covers are mostly portrait headshots; center-cropping them
- * into a wide frame cuts through faces, so anchor those crops to the top.
- */
-export function getCoverPositionClass(slug: string): string {
-  return slug === "business-leaders" ? "object-top" : "object-center";
-}

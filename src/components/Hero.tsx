@@ -1,11 +1,7 @@
-import Image from "next/image";
 import Link from "next/link";
+import CoverImage from "@/components/CoverImage";
 import type { ArticleMeta } from "@/types/article";
-import {
-  getCategoryBadgeClass,
-  getCategoryName,
-  getCoverPositionClass,
-} from "@/lib/categories";
+import { getCategoryBadgeClass, getCategoryName } from "@/lib/categories";
 
 /** The single lead story at the top of the homepage. No date shown. */
 export default function Hero({ article }: { article: ArticleMeta }) {
@@ -15,13 +11,13 @@ export default function Hero({ article }: { article: ArticleMeta }) {
       className="group relative block overflow-hidden rounded-xl border border-border"
     >
       <div className="relative aspect-[4/5] w-full sm:aspect-[21/9]">
-        <Image
+        <CoverImage
           src={article.coverImage}
           alt={article.title}
-          fill
+          category={article.category}
           priority
           sizes="(min-width: 1152px) 1152px, 100vw"
-          className={`object-cover ${getCoverPositionClass(article.category)} transition-transform duration-500 group-hover:scale-105`}
+          className="transition-transform duration-500 group-hover:scale-105"
         />
         <div className="absolute inset-0 bg-gradient-to-t from-black/95 via-black/45 to-transparent" />
       </div>
