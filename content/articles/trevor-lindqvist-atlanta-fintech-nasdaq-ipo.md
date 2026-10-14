@@ -5,7 +5,7 @@ excerpt: "Trevor Lindqvist rang the opening bell as his Atlanta-based payments c
 category: "business-leaders"
 date: "2026-03-25"
 coverImage: "https://images.pexels.com/photos/17049771/pexels-photo-17049771/free-photo-of-portrait-of-a-businessman-in-a-suit.jpeg"
-featured: true
+featured: false
 imageCredit: "Photo: Pexels"
 ---
 
