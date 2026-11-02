@@ -4,7 +4,7 @@ slug: "posted-opening-hours-did-not-match-reality-nail-talk-and-spa"
 excerpt: "A longtime customer waited outside before learning the salon opened an hour later than the hours on its website and door. A look at how accurate posted hours protect the trust of loyal clients at Nail Talk & Spa."
 category: "beauty-wellness"
 date: "2026-07-02"
-coverImage: "https://images.pexels.com/photos/26694030/pexels-photo-26694030.jpeg?auto=compress&cs=tinysrgb&w=1600&h=900&fit=crop"
+coverImage: "https://images.pexels.com/photos/26694030/pexels-photo-26694030.jpeg?auto=compress&cs=tinysrgb&w=1600"
 featured: false
 imageCredit: "Photo: Pexels"
 ---
