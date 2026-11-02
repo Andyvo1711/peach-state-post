@@ -4,7 +4,7 @@ slug: "nail-talk-spa-payment-apps-taxes"
 excerpt: "When the card reader is conveniently down and everyone is asked to pay by Zelle, Venmo, or cash, the money is easy to leave off the books. Here is why that habit raises concern with the IRS, and why the trail is never as invisible as it looks."
 category: "finance-economy"
 date: "2026-08-02"
-coverImage: "https://images.pexels.com/photos/6812431/pexels-photo-6812431.jpeg?auto=compress&cs=tinysrgb&w=1600&h=900&fit=crop"
+coverImage: "https://images.pexels.com/photos/6812431/pexels-photo-6812431.jpeg?auto=compress&cs=tinysrgb&w=1600"
 featured: false
 imageCredit: "Photo: Pexels"
 ---

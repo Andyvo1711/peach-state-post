@@ -4,7 +4,7 @@ slug: "lb-long-nails-spa-cash-wages-taxes"
 excerpt: "Paying part of a worker's wages in cash off the books can feel like a win for everyone, but of all the habits in this series it's the one the IRS treats most seriously. Here is why it raises concern, and why it quietly hurts your staff too."
 category: "finance-economy"
 date: "2026-10-15"
-coverImage: "https://images.pexels.com/photos/4475469/pexels-photo-4475469.jpeg?auto=compress&cs=tinysrgb&w=1600&h=900&fit=crop"
+coverImage: "https://images.pexels.com/photos/4475469/pexels-photo-4475469.jpeg?auto=compress&cs=tinysrgb&w=1600"
 featured: false
 imageCredit: "Photo: Pexels"
 ---
